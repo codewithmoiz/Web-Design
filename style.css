@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    position: relative;
+    left: 15%;
+    height: 13%;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img {
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#nav ul li button{
+    padding: 8px 10px;
+    background-color: rgb(109, 109, 243);
+    box-shadow: inset 5px 10px 10px #112685;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+#img{
+    height: 30vh;
+    width: 100%;
+    background: url('https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 250px 250px 10px rgba(0, 0, 0, 0.4);
+}
+
+#img h1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #fff;
+    font-size: 40px;
+}
+
+#main{
+    position: relative;
+    left: 15%;
+    top: 5%;
+    width: 65%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 10px;
+}
+
+#main #part1{
+    height: 100%;
+    width: 50%;
+    background: url('https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvYWRtYXB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+#main #part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: cornflowerblue; */
+    padding: 10px;
+}
+
+#part2 h1{
+    margin-bottom: 5px;
+}
+
+#part2 ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#part2 ul li{
+    margin-top: 5px;
+}
+
+#para2{
+    margin: 10px 0;
+}
